@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #1B262C;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo {
+    font-size: 20px;
+    color: #f2f2f2;
+    padding: 1rem 1rem;
+
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 20px;
+    color: #f2f2f2;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 100vw;
+}
+
+.bannerinn {
+    padding: 1rem;
+    background-color: #3282B8;
+    color: white;
+    height: auto;
+    width: 300px;
+    text-align: center;
+}
+
+.team-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.aboutTeam {
+    background-color: #1B262C;
+    height: auto;
+    padding: 4rem;
+    font-size: 20px;
+    color: white;
+}
+
+.infoTeam {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.team {
+    padding: 2rem;
+    background-color: #3282B8;
+}
+
+.infoTeam {
+    padding: 1.5rem;
+}
+
+.team-member {
+    padding: 1rem;
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #BBE1FA;
+    
+    transition: transform 0.3s ease;
+}
+.team-member:hover {
+    transform: scale(1.1); 
+}
